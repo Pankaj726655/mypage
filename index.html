@@ -3,10 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>Build Your Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .service {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: calc(33% - 20px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .service h3 {
+            margin-top: 0;
+        }
+        .service p {
+            margin-bottom: 10px;
+        }
+        .service button {
+            background: #333;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .service button:hover {
+            background: #555;
+        }
+    </style>
 </head>
 <body>
-    <H1>OPs! Website under Development</H1>
-    
+    <header>
+        <h1>Welcome to Website Builder Pro</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <h2>Build Your Dream Website</h2>
+        <p>We specialize in creating stunning websites tailored to your needs. Choose from our range of services below:</p>
+
+        <div class="services">
+            <div class="service">
+                <h3>Custom Web Design</h3>
+                <p>Get a unique and professional design that matches your brand.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="service">
+                <h3>E-commerce Solutions</h3>
+                <p>Start selling online with our powerful e-commerce platforms.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="service">
+                <h3>SEO Optimization</h3>
+                <p>Boost your website's visibility with our SEO services.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="service">
+                <h3>Responsive Design</h3>
+                <p>Your website will look great on any device, from desktops to mobiles.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="service">
+                <h3>Maintenance & Support</h3>
+                <p>We provide ongoing support to keep your website running smoothly.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="service">
+                <h3>Web Hosting</h3>
+                <p>Reliable and secure hosting solutions to keep your site live 24/7.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Website Builder Pro. All rights reserved.</p>
+    </footer>
 </body>
 </html>
